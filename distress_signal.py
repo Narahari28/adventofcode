@@ -51,7 +51,7 @@ def compare(item1, item2):
         return 0
 
 def p1():
-    with open('distress_signal') as f:
+    with open('distress_signal.txt') as f:
         lines = f.readlines()
         ans = 0
         i = 0
@@ -64,7 +64,7 @@ def p1():
         print(ans, flush=True)
 
 def p2():
-    with open('distress_signal') as f:
+    with open('distress_signal.txt') as f:
         lines = f.readlines()
         sorted_lines = []
         i = 0
